@@ -1,6 +1,6 @@
 # Landing Page Project
 
-4 sections
-responsive design
+## 4 Sections
+## responsive design
 
 
