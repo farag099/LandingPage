@@ -103,8 +103,11 @@ logo.addEventListener("click", ()=> {
 
 
 
+// You have the following requirements to meet.
+// When clicking an item from the navigation menu, the link should scroll to the appropriate section.
+
 // Scroll to section on link click
-function scrollToSections(elements) {       // when click in any click scroll to his section
+function scrollToSections(elements) {       // when click in any nav mmenu will scroll to his section
     elements.forEach((element)=> {          // we know his section from the dataset! "*"
         element.addEventListener("click", (e)=> {
             let section = document.getElementById(element.getAttribute("data-section"));
